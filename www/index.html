@@ -1,0 +1,29 @@
+<head>
+    <script src="bower_components/requirejs/require.js" data-main="boot.js"></script>
+</head>
+
+<body>
+    <h1>PKT Multisig tools</h1>
+    <h2>Generate electrum qrcodes from transactions</h2>
+    <div id="qrcode" style="height:250px;background:grey;width:250px;"></div>
+    <br />
+    <textarea id="txhex" rows="10" cols="100" placeholder="Transaction hex"></textarea>
+    <textarea id="txb43" rows="10" cols="100" placeholder="Transaction base43"></textarea>
+
+    <h2>Convert values between mBTC and PKT</h2>
+    <dl>
+        <dd>Value mBTC</dd>
+        <dt><input id="valmbtc" type="text"></input></dt>
+        <dd>Value PKT</dd>
+        <dt><input id="valpkt" type="text"></input></dt>
+    </dl>
+
+    <h2>Convert between BTC and PKT addresses</h2>
+    <dl>
+        <dd>BTC Address</dd>
+        <dt><input id="btcaddr" type="text" style="width:400px" value="1Gw2kncbuBBaBT1N4fxtVD6PSD4mki7Hb2"></input></dt>
+        <dd>PKT Address</dd>
+        <dt><input id="pktaddr" type="text" style="width:400px"></input></dt>
+    </dl>
+
+</body>

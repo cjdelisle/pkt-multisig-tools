@@ -1,0 +1,18 @@
+{
+    "name": "multisig-tools",
+    "authors": [
+        "Caleb James DeLisle <cjd@cjdns.fr>"
+    ],
+    "description": "",
+    "main": "",
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "qrcodejs": "git+https://github.com/davidshimjs/qrcodejs",
+        "base43js": "git+https://github.com/jacoblyles/base43js",
+        "jquery": "^3.4.1",
+        "requirejs": "^2.3.6",
+        "bitcoinjs": "#5eb8c2c8172da5894ccd6f7a4bbb0ce5d054893f",
+        "bech32": "git+https://github.com/bitcoinjs/bech32"
+    }
+}
