@@ -3,7 +3,6 @@
 /* global window, requirejs, define */
 requirejs([
     'bower_components/bitcoinjs/bitcoinjs.min.js',
-    'bower_components/tweetnacl-util/nacl-util.js',
     'bower_components/jquery/dist/jquery.js',
     'bower_components/qrcodejs/qrcode.js',
     'bower_components/base43js/js/base43.js'
