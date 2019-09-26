@@ -8,3 +8,4 @@ Http.createServer((request, response) => {
         file.serve(request, response);
     }).resume();
 }).listen(8080);
+console.log("Navigate to http://localhost:8080/");
